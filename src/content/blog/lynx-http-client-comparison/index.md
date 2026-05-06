@@ -3,6 +3,10 @@ title: "Lynx 移动端 HTTP 请求方案对比：TanStack Query vs Axios"
 description: "深入对比 TanStack Query 和 Axios 在 Lynx（ReactLynx）项目中的使用方案，分析各自优缺点及适用场景"
 publishDate: 2026-04-27
 tags: ["lynx", "react", "http", "tanstack-query", "axios", "移动端"]
+heroImage:
+  src: './thumbnail.jpg'
+  alt: 'thumbnail.jpg'
+  color: '#669933'
 draft: false
 comment: true
 ---

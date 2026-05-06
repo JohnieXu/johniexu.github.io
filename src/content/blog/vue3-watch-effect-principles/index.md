@@ -3,6 +3,10 @@ title: Vue3 watchEffect 用法与实现原理
 description: 从日常用法、调度时机、清理机制到 Vue 3 源码，循序渐进拆解 watchEffect 的自动依赖收集与重新执行机制。
 publishDate: 2026-04-28 08:34:00
 tags: ['Vue', 'watchEffect', '响应式', '源码分析']
+heroImage:
+  src: './thumbnail.jpg'
+  alt: 'thumbnail.jpg'
+  color: '#b2a33f'
 language: 'zh'
 draft: false
 comment: true
