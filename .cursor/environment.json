@@ -1,0 +1,7 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "install": "bun install --frozen-lockfile"
+}

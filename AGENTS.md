@@ -23,6 +23,12 @@ Important notes:
 - Run `bun run check` for focused Astro type/content collection validation.
 - `bun run lint` and `bun run format` may modify files.
 
+## Cursor Cloud Environment
+
+- Cursor Cloud uses `.cursor/environment.json` and `.cursor/Dockerfile` to install Bun before agent sessions start.
+- The Cloud install step runs `bun install --frozen-lockfile` so dependency installs can be cached between agent runs.
+- If the lockfile changes, run `bun install` locally and commit the updated `bun.lock`.
+
 ## Project Structure
 
 - `src/content/blog/`: blog posts in Markdown or MDX.
