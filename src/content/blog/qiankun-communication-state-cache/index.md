@@ -3,6 +3,10 @@ title: 聊一聊 qiankun 主子应用通信、状态与缓存方案
 description: 从 props、globalState、应用生命周期到缓存保活，梳理 qiankun 微前端项目里主子应用通信与状态管理的落地方案。
 publishDate: 2026-05-06 23:31:00
 tags: ['qiankun', 'micro-frontend', 'vue', 'react', '工程实践']
+heroImage:
+  src: './thumbnail.jpg'
+  alt: 'thumbnail.jpg'
+  color: '#669933'
 language: 'zh'
 draft: false
 comment: true
