@@ -56,6 +56,14 @@ Important notes:
 - Follow existing Astro component and Markdown article style before introducing new patterns.
 - For UI changes, verify the rendered page in a browser when possible and include a screenshot or recording.
 
+## Cursor Cloud specific instructions
+
+- The dev server (`bun dev`) runs on `http://localhost:4321/`.
+- `bun run lint` has pre-existing errors (unused imports, `no-undef` for `ImageMetadata` in Astro files). These are not regressions; do not attempt to fix them unless explicitly asked.
+- `bun run check` (Astro type checking) is the more reliable correctness check; use it to validate content and type changes.
+- A deprecation warning about `@astrojs/vercel/static` appears during build/dev/check — this is expected and harmless.
+- Shiki warnings like `The language "bash{1,7" doesn't exist` come from fenced code blocks in blog posts that use Shiki line-highlighting syntax; they are cosmetic and expected.
+
 ## Deployment
 
 - Base branch: `next`.
